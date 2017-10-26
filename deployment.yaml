@@ -11,7 +11,7 @@ spec:
     spec:
       containers:
       - name: jenkins-test
-        image: jetiba/jenkins:$BUILD_NUMBER
+        image: jetiba/jenkins:${BUILD_NUMBER}
         ports:
         - containerPort: 3000
 
